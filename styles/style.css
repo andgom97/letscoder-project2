@@ -1,0 +1,144 @@
+.logo-equipo {
+    height: 20px;
+    width: 20px;
+}
+
+.logo-laliga {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.top-clasi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.clasi-body {
+    display: flex;
+    height: 750px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(44, 44, 44);
+    
+}
+
+.tabla-clasi-header{
+    border-bottom: 2px white solid;
+}
+
+.clasi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    border: 2px white solid;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.tabla-clasi {
+    color: white;
+    width: 650px;
+}
+
+.clasi-spinner{
+    margin-top: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.matches-body {
+    display: flex;
+    height: fit-content;
+    min-height: 600px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(44, 44, 44);
+    
+}
+
+.top-matches {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.matches-title {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla-matches-header{
+    border-bottom: 2px white solid;
+}
+
+.text-aligned {
+    text-align: center;
+}
+
+.matches{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    border: 2px white solid;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.filter {
+    margin-left:40px;;
+}
+
+.search-button {
+    color:white;
+    height: 30px;
+    width: 70px;
+    border: 2px white solid;
+    border-radius: 0.3rem;
+    background-color: rgb(44, 44, 44);
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: white;
+    color: rgb(44,44,44);
+    transition: 0.3s;
+}
+
+input {
+    border: 0;
+    height: 30px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 0.3rem 0.3rem 0.1rem 0.1rem;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    transition: 0.3s;
+    color: white;
+}
+
+input:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+input:focus {
+    border-bottom: 2px rgb(245, 245, 245) solid;
+    background-color: rgba(65,65,65);
+    outline: none;
+}
+
+
+
